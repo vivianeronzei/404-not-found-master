@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.center {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+}
+.center img {
+    position: absolute;
+    left: 5% ;
+    right: 50%;
+    top: 27% ;
+    width: 35%;
+}
+h3{
+    position: absolute;
+    width: 14.6vw;
+    left: 2.2vw;
+    top: 2.2vw;
+
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+    }
+
+    h1{
+        position: absolute;
+        height: 190px;
+        width: 700px;
+        left: 735px;
+        top: 265px;
+                
+
+        font-family: Space Mono;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        }
+
+        p{
+            position: absolute;
+            height: 108px;
+            width: 381px;
+            left: 736px;
+            top: 491px;
+            border-radius: nullpx;
+            
+font-family: Space Mono;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.035em;
+text-align: left;
+
+        }
+
+        button{
+            position: absolute;
+            height: 68px;
+            width: 216px;
+            left: 740px;
+            top: 663px;
+            border-radius: 0px;
+            background: #da0c0c;
+        }
+
+        span{
+            font-family: Space Mono;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: -0.035em;
+            text-align: left;
+            color: #FFFFFF;
+        }
+
+        footer{
+            
+            position: absolute;
+width: 287px;
+height: 17px;
+left: 577px;
+top: 1039px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0a0303;
+            
+            
+
+        }

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.center {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center img {
+    position: absolute;
+    left: 5% ;
+    right: 50%;
+    top: 27% ;
+    width: 35%;
+    
+}
+
+h3 {
+    position: absolute;
+    width: 14.6vw;
+    left: 2.2vw;
+    top: 2.2vw;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1 {
+    position: absolute;
+    width: 47.6vw;
+    top: 14.64vw;
+    left: 45.4vw ;
+    height: 13.9vw;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #333333;
+}
+
+p {
+   position: absolute;
+    width: 29.3vw;
+    top: 29.3vw;
+    left: 45.4vw;
+    height: 7.9vw;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+}
+
+button {
+    position: absolute;
+    width: 14.6vw;
+    top: 42.2vw;
+    left: 45.4vw;
+    height: 3.7vw;
+
+    background-color: #333333;
+    border: none;
+}
+
+span {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+   color: #FFFFFF;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+    
+
+/* media queries*/
+
+@media screen and (max-width:576px) {
+    .center {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    h1{
+    position: absolute;
+    width: 105.6vw;
+    top: 50.64vw;
+    left: 3.4vw ;
+    height: 13.9vw;
+    
+
+    }
+
+    p {
+    position: absolute;
+    width: 90.3vw;
+    top: 125.3vw;
+    left: 5.4vw;
+    height: 7.9vw;
+    }
+
+
+.center img {
+    left: 35% ;
+    right: 50%;
+    top: 9% ;
+    width: 45%;
+}
+
+button {
+    position: absolute;
+    width: 50.6vw;
+    top: 175.2vw;
+    left: 10.4vw;
+    height: 15.7vw;
+}
+
+h3 {
+    position: absolute;
+    width: 40.6vw;
+    left: 2.2vw;
+    top: 5.2vw;
+}
+}
